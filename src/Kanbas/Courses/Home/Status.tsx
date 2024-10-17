@@ -10,77 +10,55 @@ import { SiSimpleanalytics } from "react-icons/si";
 import { IoMdHome } from "react-icons/io";
 import { TfiAnnouncement } from "react-icons/tfi";
 
-export default function CourseStatus() {
+export default function CourseManagement() {
   return (
     <div
-      id="wd-course-status"
+      id="course-management"
       style={{
-        width: "300px",
+        width: "320px",
       }}
     >
-      <h2>Course Status</h2>
-      {/* <button>Unpublish</button>
-      <button>Publish</button>
-      <button>View Course Notifications</button>
-      <button>View Course Notifications</button>
-      <button>View Course Settings</button>
-      <button>Delete Course</button>
-      <button>View Enrollment</button> */}
+      <h2>Course Management</h2>
 
       <div className="d-flex">
         <div className="w-50 pe-1">
-          <button className="btn btn-lg btn-secondary w-100 text-nowrap ">
-            <MdDoNotDisturbAlt className="me-2 fs-5" /> Unpublish{" "}
+          <button className="btn btn-lg btn-secondary w-100 text-nowrap">
+            <MdDoNotDisturbAlt className="me-2 fs-5" /> Unpublish
           </button>
         </div>
         <div className="w-50">
           <button className="btn btn-lg btn-success w-100">
-            <FaCheckCircle className="me-2 fs-5" /> Publish{" "}
+            <FaCheckCircle className="me-2 fs-5" /> Publish
           </button>
         </div>
       </div>
+
       <br />
       <button className="btn btn-lg btn-secondary w-100 mt-1 text-start">
-        <BiImport className="me-2 fs-5" /> Import Existing Content{" "}
+        <BiImport className="me-2 fs-5" /> Import Content
       </button>
       <button className="btn btn-lg btn-secondary w-100 mt-1 text-start">
-        <LiaFileImportSolid className="me-2 fs-5" /> Import from Commons{" "}
+        <LiaFileImportSolid className="me-2 fs-5" /> Import from Library
       </button>
 
-      {/* home page */}
       <button className="btn btn-lg btn-secondary w-100 mt-1 text-start">
-        <IoMdHome className="me-2 fs-5" /> Choose Home Page{" "}
+        <IoMdHome className="me-2 fs-5" /> Select Home Page
       </button>
 
-      {/* course screen */}
       <button className="btn btn-lg btn-secondary w-100 mt-1 text-start">
-        <IoSettings className="me-2 fs-5" /> View Course Screen{" "}
+        <IoSettings className="me-2 fs-5" /> Manage Course Settings
       </button>
 
-      {/* delete course
-      <button className="btn btn-lg btn-danger w-100 mt-1 text-start">
-        <MdDeleteForever className="me-2 fs-5" /> Delete Course{" "}
-      </button> */}
-
-      {/* view enrollment
       <button className="btn btn-lg btn-secondary w-100 mt-1 text-start">
-        <CiViewTimeline className="me-2 fs-5" /> View Enrollment{" "}
-      </button> */}
-
-      {/* New Course */}
-      <button className="btn btn-lg btn-secondary w-100 mt-1 text-start">
-        <TfiAnnouncement className="me-2 fs-5" /> New Annoucement{" "}
+        <TfiAnnouncement className="me-2 fs-5" /> Create Announcement
       </button>
 
-      {/* New Analytics */}
       <button className="btn btn-lg btn-secondary w-100 mt-1 text-start">
-        <SiSimpleanalytics className="me-2 fs-5" /> New Analytics{" "}
+        <SiSimpleanalytics className="me-2 fs-5" /> Access Analytics
       </button>
 
-      {/* course notifications */}
       <button className="btn btn-lg btn-secondary w-100 mt-1 text-start">
-        <IoNotificationsCircle className="me-2 fs-5" /> View Course
-        Notifications{" "}
+        <IoNotificationsCircle className="me-2 fs-5" /> View Notifications
       </button>
     </div>
   );

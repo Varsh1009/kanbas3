@@ -81,10 +81,7 @@ export default function Lab3() {
       <hr />
       <h4>Highlight</h4>
       <Highlight>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipitratione
-        eaque illo minus cum, saepe totam vel nihil repellat nemo explicabo
-        excepturi consectetur. Modi omnis minus sequi maiores, provident
-        voluptates.
+      n a small, quiet village nestled between lush green hills, the sun rose each morning with a golden glow that painted the sky in shades of pink and orange. The villagers, known for their warm smiles and hearty laughter, began their day with the scent of freshly baked bread wafting through the air. Children played in the fields, their giggles mingling with the sweet melody of birds chirping in the trees. As the day unfolded, stories of old echoed in the town square, where elders shared tales of adventure and wisdom, binding the community with threads of shared history and hope for the future.
       </Highlight>
       <hr />
       <TOC />
