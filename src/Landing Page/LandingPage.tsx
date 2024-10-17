@@ -8,43 +8,34 @@ import LabWork from "../Labs";
 const LandingPage = () => {
   return (
     <div className="landing-page">
-      <div className="row">
-        <div className="col" />
-        <div className="col-6">
-          <div className="headings-card">
-            <h1>Shrivarshini Narayanan</h1>
-            <h2>CS5610 - 20596</h2>
-          </div>
-        </div>
-        <div className="col" />
+      <div className="header-section">
+        <h1>Shrivarshini Narayanan</h1>
+        <h2>CS5610 - 20596</h2>
       </div>
-      <div className="button-container">
-        <a href="https://github.com/Varsh1009">
+      <div className="action-buttons">
+        <a href="https://github.com/Varsh1009" className="button-link">
           <button className="button">
-            {" "}
             Source Code Repository <FaGithub />
           </button>
         </a>
-
-        <Link to="/">
+        <Link to="/" className="button-link">
           <button className="button">
             Go to Landing Page <BsArrowUpRightSquare />
           </button>
         </Link>
-
-        <Link to="/labwork/*">
+        <Link to="/labwork/*" className="button-link">
           <button className="button">
             Go to Lab Work <BsArrowUpRightSquare />
           </button>
         </Link>
-
-        <Link to="/kanbas">
+        <Link to="/kanbas" className="button-link">
           <button className="button">
             Go to Kanbas <BsArrowUpRightSquare />
           </button>
         </Link>
       </div>
-      {/* <table>
+      
+      <table>
         <thead>
           <tr>
             <th>Assignment</th>
@@ -55,22 +46,26 @@ const LandingPage = () => {
         <tbody>
           <TableRow
             name="A1"
-            description="Created a landing page for CS5610 that will contain the hyperlinks to all the following assignments as well as implemented the lab-work which includes getting familiar with headings, paragraphs, lists, links, tables and routing."
-            // url="./#/labwork"
+            description="Created a landing page for CS5610 that will contain the hyperlinks to all the following assignments as well as implemented the lab work which includes getting familiar with headings, paragraphs, lists, links, tables and routing."
             url="https://kanbas1.netlify.app/"
           />
           <TableRow
             name="A2"
-            description="Gained familiarity with different concepts of CSS and Bootstrap through lab work and utilized these skills to style our website. Additionally, I improved the UI of my Kanbas application by integrating CSS, Bootstrap, and React Icons, making it look more like the original Canvas web app."
+            description="Gained familiarity with different concepts of CSS and Bootstrap through lab work and utilized these skills to style our website."
             url="https://flourishing-bombolone-8dd3ab.netlify.app/"
           />
-          <TableRow name="A3" description="To be Updated" url="" />
-          <TableRow name="A4" description="Coming Soon..." url="" />
-          <TableRow name="A5" description="Coming Soon..." url="" />
-          <TableRow name="A6" description="Coming Soon..." url="" />
+          <TableRow 
+            name="A3" 
+            description="Gained familiarity with javascript concepts."
+            url="https://remarkable-heliotrope-53f3e0.netlify.app/" 
+          />
+          <TableRow name="A4" description="To be Updated" url="#" />
+          <TableRow name="A5" description="To be Updated" url="#" />
+          <TableRow name="A6" description="To be updated" url="#" />
         </tbody>
-      </table> */}
-
+      </table>
+      
+      {/* Uncomment below to add Lab Work component */}
       {/* <LabWork /> */}
     </div>
   );
