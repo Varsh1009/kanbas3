@@ -217,7 +217,7 @@ export default function AssignmentEditor() {
         </div>
       </div>
 
-      {/* 2 buttons: one for submit, one for cancel */}
+      
       <div
         className="buttons-container"
         style={{

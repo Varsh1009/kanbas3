@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 const LabsNavbar = () => {
   return (
     <nav className="navbar">
-      {/* <div className="navbar-logo">
-                <Link to="./">Lab1</Link> 
-            </div> */}
       <ul className="navbar-links">
         <li>
           <Link to="Lab1">

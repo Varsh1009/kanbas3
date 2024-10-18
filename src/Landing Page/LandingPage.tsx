@@ -68,9 +68,6 @@ const LandingPage = () => {
           <TableRow name="A6" description="To be updated" url="#" />
         </tbody>
       </table>
-      
-      {/* Uncomment below to add Lab Work component */}
-      {/* <LabWork /> */}
     </div>
   );
 };

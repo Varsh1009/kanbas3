@@ -11,27 +11,27 @@ export default function CourseModules() {
   return (
     <div>
       <ModulesControls />
-      <br /><br /><br /><br />
+      <br /><br />
 
-      <ul id="modules-list" className="list-group rounded-0">
+      <ul id="modules-list" className="list-group">
         {filteredModules.map(module => (
           <li
             key={module._id}
-            className="module-item list-group-item p-0 mb-5 fs-5 border-gray"
+            className="module-item list-group-item mb-4 border border-gray rounded-0"
           >
-            <div className="module-title p-3 ps-2 bg-secondary">
+            <div className="module-title d-flex align-items-center bg-secondary text-white p-3">
               <BsGripVertical className="icon me-2 fs-3" />
-              {module.name}
+              <span>{module.name}</span>
             </div>
             {module.lessons && (
-              <ul className="lessons-list list-group rounded-0">
+              <ul className="lessons-list list-group">
                 {module.lessons.map(lesson => (
                   <li
                     key={lesson._id}
-                    className="lesson-item list-group-item p-3 ps-1"
+                    className="lesson-item list-group-item d-flex align-items-center p-3"
                   >
                     <BsGripVertical className="icon me-2 fs-3" />
-                    {lesson.name}
+                    <span className="flex-grow-1">{lesson.name}</span>
                     <LessonControlButtons />
                   </li>
                 ))}

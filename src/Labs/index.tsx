@@ -24,7 +24,7 @@ const LabWork = () => {
       <LabsNavbar />
 
       <div className="button-container">
-        <a href="https://github.com/Varsh1009">
+        <a href="https://github.com/Varsh1009/kanbas3">
           <button className="button">
             Source Code Repository <FaGithub />
           </button>
