@@ -1,5 +1,5 @@
 import "./App.css";
-import TableRow from "./Landing Page/tableRows";
+//import TableRow from "./Landing Page/tableRows";
 import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 import { BsArrowUpRightSquare } from "react-icons/bs";

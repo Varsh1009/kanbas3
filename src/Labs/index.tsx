@@ -17,8 +17,10 @@ const LabWork = () => {
   return (
     <div className="lab-work">
       <div className="header-section">
-        <h1>Shrivarshini Narayanan</h1>
-        <h2>CS5610 - 20596</h2>
+        <h1>Web Development</h1>
+        <h2>Section - 03</h2>
+        <h3>Shrivarshini Narayanan</h3>
+        <h4>CS5610 - 20596</h4>
       </div>
       
       <LabsNavbar />
@@ -44,32 +46,7 @@ const LabWork = () => {
         <Route path="Lab3/*" element={<Lab3 />} />
       </Routes>
 
-      <table className="lab-table">
-        <thead>
-          <tr>
-            <th>Lab Number</th>
-            <th>Description</th>
-            <th>Link</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Lab 1</td>
-            <td>Headings and Paragraphs</td>
-            <td><a href="/Lab1">View</a></td>
-          </tr>
-          <tr>
-            <td>Lab 2</td>
-            <td>Working with Lists</td>
-            <td><a href="/Lab2">View</a></td>
-          </tr>
-          <tr>
-            <td>Lab 3</td>
-            <td>Creating Forms</td>
-            <td><a href="/Lab3">View</a></td>
-          </tr>
-        </tbody>
-      </table>
+      
     </div>
   );
 };
