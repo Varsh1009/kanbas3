@@ -7,18 +7,21 @@ export default function ModulesControls() {
       <div className="d-flex">
         <button
           id="wd-add-module-btn"
-          className="btn btn-lg btn-danger me-1"
+          className="btn btn-lg btn-danger me-2"
+          aria-label="Add Module"
         >
           <FaPlus className="position-relative me-2" style={{ bottom: "1px" }} />
           Module
         </button>
 
-        <div className="dropdown me-1">
+        <div className="dropdown me-2">
           <button
             id="wd-publish-all-btn"
             className="btn btn-lg btn-secondary dropdown-toggle"
             type="button"
             data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
           >
             <GreenCheckmark />
             Publish All
@@ -65,13 +68,15 @@ export default function ModulesControls() {
       <div className="d-flex">
         <button
           id="wd-view-progress"
-          className="btn btn-lg btn-secondary me-1"
+          className="btn btn-lg btn-secondary me-2"
+          aria-label="View Progress"
         >
           View Progress
         </button>
         <button
           id="wd-collapse-all"
           className="btn btn-lg btn-secondary"
+          aria-label="Collapse All"
         >
           Collapse All
         </button>
