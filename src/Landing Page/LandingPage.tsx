@@ -25,7 +25,7 @@ const LandingPage = () => {
             Go to Kanbas <BsArrowUpRightSquare />
           </button>
         </Link>
-        <Link to="/labwork/*" className="button-link">
+        <Link to="/labwork" className="button-link">
           <button className="button">
             Go to Labs <BsArrowUpRightSquare />
           </button>
