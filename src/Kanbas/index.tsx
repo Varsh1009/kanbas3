@@ -8,9 +8,6 @@ import "./index.css";
 const Kanbas = () => {
   return (
     <div id="wd-kanbas" className="kanbas">
-      {/* <h1>Kanbas App</h1> */}
-      {/* <h4>By Shrivarshini Narayanan</h4>
-      <h6>CS5610 - 20596</h6> */}
       <div>
         <table>
           <tbody>
@@ -19,7 +16,6 @@ const Kanbas = () => {
               <Routes>
                 <Route
                   path="/"
-                  // element={<Navigate to="Accounts/SignIn" replace />}
                   element={<Navigate to="Dashboard" replace />}
                 />
                 <Route path="Accounts/*" element={<Accounts />} />
